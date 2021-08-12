@@ -90,7 +90,7 @@ def predict():
 
         # print(prediction)
 
-        if(prediction=="N"):
+        if(prediction==0):
             prediction="Person is not elligible for loan"
         else:
             prediction="Person is elligible for loan"
